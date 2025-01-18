@@ -1,0 +1,14 @@
+# Entorno virtual
+flask-auth
+
+# Archivos de configuración y entornos
+*.pyc
+__pycache__/
+instance/
+.webassets-cache
+*.sqlite3
+
+# Archivos del sistema operativo
+.DS_Store
+*.swp
+*~
