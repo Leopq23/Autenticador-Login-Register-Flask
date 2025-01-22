@@ -1,0 +1,93 @@
+body {
+  background-color: wheat;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px 0;
+  margin: 0;
+  font-size: 3.5rem;
+  font-family: "Merriweather Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #333;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto;
+}
+.container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-family: "Merriweather Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.container p {
+  font-size: 30px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.container .input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+.container .input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.container .btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: wheat 0.3s ease;
+}
+.container .btn.btn-login {
+  background-color: #007bff;
+  color: #fff;
+  font-family: "Merriweather Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.container .btn.btn-login:hover {
+  background-color: #0056b3;
+}
+.container .btn.btn-register {
+  background-color: #28a745;
+  color: #fff;
+  font-family: "Merriweather Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.container .btn.btn-register:hover {
+  background-color: #218838;
+}
+.container .btn.btn-logout {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+.container .btn.btn-logout:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=styles.css.map */
